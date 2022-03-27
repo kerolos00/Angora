@@ -1,0 +1,5 @@
+{
+    "dataworkspace.excludedProjects": [
+        "my-app/src/app/register/kerolos/kerolos.sqlproj"
+    ]
+}

@@ -1,0 +1,13 @@
+<header class="vh-100 ">
+    <div class="container-fluid ">
+    <owl-carousel-o [options]="customOptions" class="d-flex justify-content-center align-items-center  pt-5 px-2">
+      <ng-container  *ngFor="let movie of headerTrendingMovie">
+        <ng-template  carouselSlide [id]="movie.id">
+          <img class="w-100 " [src]="imgPrefix+movie.poster_path" >
+        </ng-template>
+      </ng-container>
+    </owl-carousel-o>
+</div>
+
+
+</header>
